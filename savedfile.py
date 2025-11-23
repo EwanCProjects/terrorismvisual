@@ -86,7 +86,7 @@ def extract_bounds(st_data):
 
 
 df_agg = load_data()
-st.title('Terrorist attacks since')
+st.title('Terrorist attacks since 1970')
 
 # Display memory usage info
 st.caption(f"📊 Dataset: {len(df_agg):,} events loaded")
